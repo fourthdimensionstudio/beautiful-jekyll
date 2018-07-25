@@ -4,17 +4,17 @@ title: M3RL Code Refactor
 image: /img/m3rl.png
 ---
 
-Something that was on the backlog for a long long time was to implement the data persistence between the dungeon exploration and the "puzzle battle" from the **Match 3 Roguelike** game. Don't worry it's a teporary name.
+Something that was on the backlog for a long long time was to implement the data persistence between the dungeon exploration and the "puzzle battle" from the **Match 3 Roguelike** game. Don't worry, it's a teporary name.
 
-It was 2 long days of anxiety and "How to do this?" - The best, fastest and most secure way was to perform a major refactor on the code. Oh well, that happens. But it took only a morning, so two days avoiding to do proved to be a total waste.
+It was 2 long days of anxiety and "How to do this?" - The best, fastest and most secure way was to perform a major refactor on the code. Oh well, that happens. But it took only a morning, so two days avoiding to do it proved to be a total waste.
 
 ## How it was before?
 
-Before the refactor there were 2 objects, the **Puzzle** object and the **Dungeon Exploration** object. It doesn't take much to realize that it doesn't make a lot of sense, these object simply can't handle all of the information on the game.
+Before the refactor there were 2 objects, the **Puzzle** object and the **Dungeon Exploration** object. It doesn't take much to realize that it doesn't make a lot of sense, these object simply can't handle all the information of the game.
 
 What about the progression? Data Persistence? Statistics?
 
-None of those things could be handled with just two objects, so the most sensible thing to do was create the **GameManager**. This is a bit obvious since almost all games, at some point, will use a centralized Game Manager
+None of those things could be handled with just two objects, so the most sensible thing to do was to create the **GameManager**. This is a bit obvious since almost all games, at some point, will use a centralized Game Manager
 
 ## How it is now?
 
@@ -34,7 +34,7 @@ m_damageDealt = 0;
 
 ```
 
-If these statistics variables are going to really be used is it unknown. The most important variable of the game is the level/floor, which is used as a base to calculate the difficulty of the game (puzzle velocity and, in the future, tune the Enemy AI).
+If these statistics variables are going to really be used is yet unknown. The most important variable of the game is the level/floor, which is used as a base to calculate the difficulty of the game (puzzle velocity and, in the future, tune the Enemy AI).
 
 For the Dungeon Exploration Part:
 ```
@@ -75,7 +75,7 @@ Max tiles width and height are there so I can easily play with these values late
 
 That was the major refactor!
 
-The next step is to write the **Garbage System**, which will also have its own post on this devlog, this system is the most important part of the puzzle, where the challenge will be, together with the increasing speed.
+The next step is to write the **Garbage System**, which will also have its own post on this devlog, this system is the most important part of the puzzle, where the challenge will be together with the increasing speed.
 
 Hope you enjoyed the post!
 
