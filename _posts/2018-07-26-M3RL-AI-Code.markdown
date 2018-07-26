@@ -1,0 +1,56 @@
+---
+layout: post
+title: M3RL AI Code
+image: /img/m3rl-2.png
+---
+
+As stated on the previous post, here it is the post to describe the Garbage System implemented in the Puzzle Game under development. The whole system was based on two simple facts: **(i)** The enemy seems to drop blocks on the player from time to time, the size of the garbage could be between 3 and 5 blocks; and **(ii)** When the player "attacks" the enemy, it seems that they might attack back.
+
+Talking code, these two rules means that **(a)** a random ammount of blocks (between 3 and 5) will fall to the player puzzle from time to time; and **(b)** when players perform combos, the attack might also perform combos and drop even *more* garbage on the player.
+
+So the `enemyAI` object was created like this:
+
+```
+m_minTimeToNextBlock = 15;
+m_maxTimeToNextBlock = 30;
+m_reactionProbability = 50;
+
+// Will actually drop n - 1 blocks on this.
+m_possibleBlocksSize = [4, 5, 6];
+```
+
+These are just random guesses initial values, which are going to be tuned and changed during development and playtesting.
+
+After that, in the `puzzle logic handler` was implemented the part to randomly drop blocks on the player:
+
+```
+var t_ammountOfBlocks = (RandomFromArray(o_enemyAI.m_possibleBlocksSize) - 1);
+
+var t_xGarbagePosition = irandom(boardWidth - t_ammountOfBlocks);
+
+for(var i = 0; i < t_ammountOfBlocks; i++) {
+	if(board[# t_xGarbagePosition, 0] == piece.empty) {
+		board[# t_xGarbagePosition++, 0] = [piece.garbage, pieceState.idle, 0];
+	}
+}
+
+NewFallAlgorithm(board, --t_xGarbagePosition, boardHeight);
+
+alarm[4] = room_speed * (irandom_range(o_enemyAI.m_minTimeToNextBlock, o_enemyAI.m_maxTimeToNextBlock));
+```
+
+Translating all this: **In a random time, between 15 and 30 seconds, the enemy will drop a random amount of blocks (between 3 and 5)**.
+
+During some playtesting, *this* proved to be good enough as a starting point, so the *reaction part* wasn't written, maybe it will in the future according to feedbacks and more playtesting.
+
+So overall, that's just it, a system that drop random blocks in a random time. Seemed good enough.
+
+**Important Observations:** 1. When a match happen in a piece that is touching the garbage, all of the garbages touching this one garbage will turn into pieces; 2. The garbage works as an entire row, not individual pieces.
+
+Hope you enjoyed the post!
+
+You can always reach us on [Twitter](https://twitter.com/studio_fourth).
+
+There's not much there right now as Fourth Dimension is just starting and the visual identity is still being created, but soon there will be more!
+
+Your day tomorrow is going to be awesome! I know that because I've already seen it in the Fourth Dimension!
