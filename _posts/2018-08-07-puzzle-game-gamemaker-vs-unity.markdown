@@ -24,9 +24,9 @@ Well, no. GMS2 has its problems, and there are lots of problems (Just as Unity a
 
 As stated by **Heartbeast** in [this great video](https://www.youtube.com/watch?v=glPFa0_O-s8) at (4:26). GameMaker is an incredibly good engine for: (i) small 2D games with interesting mechanics, (ii) which does not have complex systems that interact with each other and (iii) which doesn't have a lot of UI. Basically, Platformers, Shooting Platformers, Metroidvania, Action RPG, this kind of things.
 
-So, as I heard on the podcast **Coffee with Butterscotch**, GameMaker is a great tool if you do what it expects you to do. You can't try to use it for something it wasn't designed for as it is the same for any tool, right?
+So, as I heard on the podcast **Coffee with Butterscotch**, GameMaker is a great tool if you do what it expects you to do. You can't try to use it for something it wasn't designed for and it is the same for any tool, right?
 
-This made me get back to unity progressively and know I'm kind of using both, but this project I'm moving it to Unity.
+This made me get back to Unity progressively and now I'm kind of using both, but this project I'm moving to Unity.
 
 **So what Unity does better? (or what GMS2 does worse)**
 1. **UI:** I used to **hate** the canvas and everything UI-related on Unity, but now I *know* how to use it and I have to acknowledge how good it is.
@@ -37,8 +37,10 @@ This made me get back to unity progressively and know I'm kind of using both, bu
 
 **GameMaker** performs good in games on these aspects: (i) small 2D games with simple yet interesting mechanics, (ii) not lots of complex systems interacting and (iii) not UI heavy. Being more specific: platformers, action rpg, even metroidvanias and rpgs with not much complexity, and **prototyping**. 
 
-If the game will have bigger systems such as progression system, skill trees, all those heavy rpg stuff you should probably not be using GMS2. But consider it for prototyping is *ALWAYS* a good idea.
+If the game will have bigger systems such as progression system, skill trees, all those heavy rpg stuff you should probably not be using GMS2. But considering it for prototyping is *ALWAYS* a good idea.
 
 **Unity** performs better where GMS2 performs worse (duh.) and when you want to use its powerful export system. Unity also performs good on the strong points of GameMaker, but it can be a bit harder and slower to do something simple on Unity and it will perform not as good.
 
 I love both engines and will be using both, but from now on I will be using more Unity as my games are either mobile (I don't have the mobile license for GameMaker) or *do* have those systems that interacts with each other. But I still want to have a platformer or ARPG done on GameMaker.
+
+I hope this texts helps! Have a nice day and follow Fourth Dimension on [Twitter](https://twitter.com/studio_fourth).
