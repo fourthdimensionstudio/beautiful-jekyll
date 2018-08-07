@@ -28,7 +28,7 @@ if(m_rigidBody2D.velocity.y >= 0) {
 	t_angle = Mathf.Lerp(m_rigidBody2D.transform.localEulerAngles.z, -90, - m_rigidBody2D.velocity.y / 256f );
 }
 
-		transform.rotation = Quaternion.Euler(0, 0, t_angle);
+transform.rotation = Quaternion.Euler(0, 0, t_angle);
 ```
 
 The values `16f` and `256f` were achieved by testing.
