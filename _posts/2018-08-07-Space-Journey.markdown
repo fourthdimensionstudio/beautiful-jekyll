@@ -11,7 +11,7 @@ The game was made in Unity 2018.2f and can be found on [play store](https://play
 This is some kind of a postmortem.
 
 ## What went right?
-1. The first that went right was using **GitHub Projects** for organization, it is a very simple Kanban style board that is very helpful, the boards were also something that went right, it is divided in Backlog/This Week/Today/Done, instead of the usual To Do/Doing/Done.
+1. The first thing that went right was using **GitHub Projects** for organization, it is a very simple Kanban style board that is very helpful, the boards were also something that went right, it is divided in Backlog/This Week/Today/Done, instead of the usual To Do/Doing/Done.
 2. Adding *Juice* made the game extremely more pleasant, things such as the screen shake when the core hits a satellite, the screen flash at the same time, animations for the game over menu and for the core when the screen is idle (on the menu screen and the "Tap to Start" screen)
 3. Using Mathf.PingPong() and Sin/Cos to make the space core move on the main menu screen and on the "Tap to Play" screen. These functions are great to achieve the "floaty" feel, as their forms are basically waves.
 4. Overall it was a very good experience on designing menus, because everything has to be interesting and simple as the game is so simple.
