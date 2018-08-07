@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Space Journey
-image: /img/High-Res.png
+image: /img/Hi-Res.png
 ---
 
 Soon.
