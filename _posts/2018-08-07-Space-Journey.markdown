@@ -38,6 +38,10 @@ The values `16f` and `256f` were achieved by testing.
 2. Also, working with pixel art makes it harder to create icons for Play Store (512x512 and 1024x500 is required) - luckily enough, Photoshop has a very good canvas resize property, using it with the nearest neighbor method make the pixel art be as good in 256x256 as it was on 32x32.
 3. **Sound:** As I said, the sound is more on low frequencies and I was doing them using headphones, what happened is that some sounds are hard to hear on a cellphone without using headphones, I'm even using 1.5 as pitch but it didn't change much.
 
+### Thoughts
+
+The only thing is that I would like to have used more thought on the User Interface, graphics on Play Store and Game Description. As everything in this project was pretty fast, doing those also was fast, so I don't think they have a good quality.
+
 As a Flappy Bird similar, there is not much to add, the development happened throughout 5 or 6 days, the main mechanic was built entirely in a single day, the others were dedicated to polish, juiceness, sound, art, etc... So, always remember the 80/20 Rule.
 
 So that's about it! Have a good day and follow Fourth Dimension on [Twitter](https://twitter.com/studio_fourth)!
