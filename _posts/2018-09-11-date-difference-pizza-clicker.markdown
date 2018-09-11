@@ -42,7 +42,7 @@ And finally, to see the difference in seconds, this simple Debug.Log will do: `D
 
 And, visually, we can do this:
 
-![Pizza Clicker](img/pizzaclicker/yougot.png)
+![Pizza Clicker](/devlog/img/pizzaclicker/yougot.png)
 
 This is a simple post but it is a very useful implementation on a nice design decision for idle games!
 
