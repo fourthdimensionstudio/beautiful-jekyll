@@ -24,13 +24,13 @@ The aesthetics will be inspired on Lovecraft related stories, probably with dark
 
 Dreamlands is interesting, at least for me, because it is a take on the roguelike genre that uses classical gameplay combat mechanics and also features some more recent introduced mechanics, such as having some kind of progression outside the dungeon, as there was on *Necrodancer* and *Binding of Isaac*.
 
-An interesting point I'm still looking into how viable it really is, is also having the game on mobile, as the classical input style really suits the mobile drag based input. But that only can happen if there isn't a lot of complexity requiring you yo use other actions. All in all, if I can't port Dreamlands to mobile, I might use the combat system and create a really similar game to give a similar experience on mobile.
+An interesting point I'm still looking into how viable it really is, is also having the game on mobile, as the classical input style really suits the mobile drag based input. But that only can happen if there isn't a lot of complexity requiring you to use other actions. All in all, if I can't port Dreamlands to mobile, I might use the combat system and create a really similar game to give a similar experience on mobile.
 
 Another interesting point of Dreamlands, is that by having, at the same time, classic and modern mechanics, it might bring new people to the classical roguelike niche. And if it somehow made into the mobile market, it can bring even more people to the genre.
 
 Basically, **that's** Dreamlands.
 
-I will be talking about it deally on [Twitter](https://twitter.com/studio_fourth), follow me there! I will also be posting here probably on a weekly basis and reaching people on Discord and Reddit for early feedback.
+I will be talking about it daily on [Twitter](https://twitter.com/studio_fourth), follow me there! I will also be posting here probably on a weekly basis and reaching people on Discord and Reddit for early feedback.
 
 Finally, I'm aiming to have a playable build in a couple weeks, so follow me on [Twitter](https://twitter.com/studio_fourth) to know when it is out, gameplay demo will probably be HTML5 on itch.io.
 
