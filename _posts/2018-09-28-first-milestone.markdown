@@ -12,9 +12,9 @@ Last week was actually my very first post about Dreamlands, you can read it [her
 
 At this point the game looks like this:
 
-![Dreamlands](/img/dreamlands-2/room1.png)
+![Dreamlands](/devlog/img/dreamlands-2/room1.png)
 
-![Dreamlands](/img/dreamlands-2/room2.png)
+![Dreamlands](/devlog/img/dreamlands-2/room2.png)
 
 I won't upload any videos at this point yet because every art is a placeholder and I'm working solely on mechanics and some early polish to get the game feeling good and juicy.
 
