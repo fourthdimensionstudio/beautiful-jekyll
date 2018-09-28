@@ -65,7 +65,9 @@ The List:
 
 ----------------
 
-I will cut this update here, if you are reading it and want to know something more specific you can reach it me on [Twitter](https://twitter.com/studio_fourth) or on email (contact@fourthdimension.studio) - Also if you have any early feedback or any consideration, also feel free to contact me. Something I want to write about in the future is about the Turn Based Combat I've developed, but I want to test it some more before effectively putting it out there.
+I will cut this update here, if you are reading it and want to know something more specific you can reach it me on [Twitter](https://twitter.com/studio_fourth), on email (contact@fourthdimension.studio) or you can just comment below on the newly added comments section!
+
+Also if you have any early feedback or any consideration, also feel free to contact me. Something I want to write about in the future is about the Turn Based Combat I've developed, but I want to test it some more before effectively putting it out there.
 
 The biggest point on this game is that I want to really listen to the community, mainly the roguelike niche players to have a really good game that adds to the community!
 
