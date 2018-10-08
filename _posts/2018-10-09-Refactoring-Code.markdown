@@ -10,7 +10,7 @@ Last week I talked about what I have accomplished on that week and what the next
 
 # This Week
 
-Keeping things short, I created the first build which is a HTML5 build and just uplodead it on itch.io! Play it here: https://fourthdimension.itch.io/dreamlands - Feel free to play it and leave any feedback!
+Keeping things short, I created the first build which is a HTML5 build and just uplodead it on itch.io! Play it on [itch.io](https://fourthdimension.itch.io/dreamlands) - Feel free to play it and leave any feedback!
 
 I had a list of things that changed and got into this build:
 * **Boss Logic:** I created a very simple boss logic that just follows the players, also all the map logic (i.e. locking and unlocking doors and stairs on the room) and now the music changes on the boss fight.
