@@ -4,11 +4,11 @@ title: Dreamlands - Random Additions
 image: /img/dreamlands-3/new-char.png
 ---
 
-Hello dreamers! It's to another Quick Update on Dreamlands!
+Hello dreamers! It's time to another Quick Update on Dreamlands!
 
 If you haven't yet, you can play a very early version of Dreamlands on [Dreamlands' itch.io page](https://fourthdimension.itch.io/dreamlands) - A new web build will be up as soon as the Sandbox is finished.
 
-For this week update, few things have actually changed. The changes are on random elements on combat that were added. There features are easy to change, add and/or remove, because I expect them to demand a lot of tuning and I'm not sure yet if these mechanics are fun.
+For this week update, few things have actually changed. The changes are on random elements on combat that were added. These features are easy to change, add and/or remove, because I expect them to demand a lot of tuning and I'm not sure yet if these mechanics are fun.
 
 Here is a list:
 
