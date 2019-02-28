@@ -26,7 +26,7 @@ You will take control of Lily, a Philosophy undergraduate student with a big sen
 
 Through the path you going to find some friend’s help and (why not) collect a bunch of pizza slices for reasons yet to be revealed. Jump your way to the next semester.
 
-![Freshman's Cover](/devlog/img/freshmans/cover.jpg)
+![Freshman's Cover](/devlog/img/freshmans/freshmans_cover2.png)
 
 ### The Team
 
