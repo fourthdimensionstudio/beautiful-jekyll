@@ -39,9 +39,9 @@ Breaking on different aspects, here's what I'm planning to add to the game, from
   * Potions would either cure your health or have an unknown effect, which could be positive or negative!
   * Adding even more monsters with different behaviors and that can interact with each other.
 * **Characters:** The game will have a range of characters, a few of them you can play from the start, but the idea is for you to buy them on an In Game Store.
-* **Worlds:** The game will have different themed worlds, initially, there will be a Training Ground and a Forest/Stones based theme. Each world will have their own difficulty and challenges, so player can choose the challenge that best suits their skill levels. New Worlds shall come in the future as upgates, they would work like DLCs.
+* **Worlds:** The game will have different themed worlds, initially, there will be a Training Ground and a Forest/Stones based theme. Each world will have their own difficulty and challenges, so players can choose the challenge that best suits their skill levels. New worlds shall come in the future as upgates, they would work like DLCs.
 * **Music:** The music will be dynamic to reflect your current status, maybe you are fighting in a rough spot, the music should follow your situation! When you overcome your challenges and find a big chest rewards the music will also reward you by switching to more calm tones.
 
-This was a short update on the status of the Mobile Roguelike I'm currently developing, I'm not sure when it will hit the stores because I'm working on the core gameplay, but ideally it won't take much. You can expect more updates in form of tweets and devlogs from now on!
+This was a short update on the status of the Mobile Roguelike I'm currently developing, I'm not sure when it will hit the stores because I'm working on the core gameplay, but ideally it won't take _too long_. You can expect more updates in form of tweets and devlogs from now on!
 
 Follow Fourth Dimension on [Twitter](https://twitter.com/studio_fourth) for frequent retweets on Freshman's Quest and some ocasional tweets about other projects!
