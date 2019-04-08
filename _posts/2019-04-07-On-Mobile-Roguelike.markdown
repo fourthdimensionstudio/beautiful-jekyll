@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Mobile Roguelike
-image: /img/mobrogue/mobrogue.png
+image: /img/mobrogue/mobrogue2.png
 ---
 
 Woosh, it's been a long time since nothing is posted here! I've just been putting a lot of work on [Freshman's Quest](http://twitter.com/freshmansQuest) as we are wrapping a demo that might be around really soon! Not only that, I'm also putting some time part time working on a local game company, to my luck, everything I'm doing there can add to the amazing work I'll talk about.
