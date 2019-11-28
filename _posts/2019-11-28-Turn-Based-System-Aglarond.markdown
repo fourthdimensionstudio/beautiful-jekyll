@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tiles and Field of View for Aglarond
+title: Turn-Based System for Aglarond
 image: /img/aglarond/cover.png
 ---
 
