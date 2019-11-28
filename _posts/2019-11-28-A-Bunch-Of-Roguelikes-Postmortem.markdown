@@ -4,7 +4,7 @@ title: A Bunch of Roguelike Postmortem!
 image: /img/bp.png
 ---
 
-During my entire life as a developer, I always wanted to make a Roguelike or a Roguelite, they are very interesting by nature, the sensation of exploration and the feeling of always playing a version of the game that was never played before is simply amazing! Since them I tried to come up with a bunch of different roguelikes and a bunch of different ways to ingrate roguelike mechanics into other genres. This post is about two roguelites and a roguelike that I started developing but actually never finished for a variety of reason.
+During my entire life as a developer, I always wanted to make a Roguelike or a Roguelite, they are very interesting by nature, the sensation of exploration and the feeling of always playing a version of the game that was never played before is simply amazing! Since them I tried to come up with a bunch of different roguelikes and a bunch of different ways to ingrate roguelike mechanics into other genres. This post is about two roguelites and a roguelike that I started developing but actually never finished for a variety of reasons.
 
 **But what is a Roguelike?** What I mean by roguelike usually is a game that is all about exploration and experimentation, if you never played Brogue, I recommend you trying that to see what I'm talking about, every new room, every floor, every new gameplay you find something new and try that to see what it does, the ammount of emergent gameplay and mechanisms in a game like that is simply amazing.
 
@@ -22,11 +22,11 @@ Not happy with that, I slapped on top of it a Lovecraftian lore and a Dream base
 
 **What went right?**
 
-Doing the turn-based system and the dungeon generation system that is similar to Zelda's dungeon was a big success for me, I use the systems and the knowledge I got from them up to date, but besides that, there was nothing very interesting about this game.
+Doing the turn-based system and the dungeon generation system that is similar to Zelda's dungeon was a big success for me, I still use the systems and the knowledge I got from them, but besides that, there was nothing very interesting about this game.
 
 **What went wrong?**
 
-Well, a level up system and a lore went compeltely wrong, I'm not a system designer and I've never had done balancing before, I'm also not a writer, so writing is hard for me. Needless to say that having those two things on the game blew up scope very hard, and that's what led for to giving up on this idea.
+Well, a level up system and a lore went compeltely wrong, I'm not a Systems Designer and I've never had done balancing before, I'm also not a writer, so writing is hard for me. Needless to say that having those two things on the game blew up scope very hard, and that's what led for to giving up on this idea.
 
 ### Mobile Roguelike
 
@@ -52,9 +52,9 @@ After giving up a game with a lot of content and monetization ideas, what's next
 
 ![Aglarond](/devlog/img/rglkPostmortem/aglarond.gif)
 
-For Aglarond was when I started getting more into what *really* was a roguelike, what made a roguelike be good and what it really meant to develop a roguelike. I played a bunch of Brogue and have a very good idea of what was important and what made people want to play roguelikes: *every time I played the game, it was a different experience based on exploration and experimentation* - and also *it was about the stories, even when I failed in the first floor, it is about telling stories, about the time I activated a trap and set everything on fire, and when I had success and went very deep in the game, it was a sucess story*.
+For Aglarond was when I started getting more into what *really* was a roguelike, what made a roguelike be good and what it really meant to develop a roguelike. I played a bunch of Brogue and had a very good idea of what was important and what made people want to play roguelikes: *every time I played the game, it was a different experience based on exploration and experimentation* - and also *it was about the stories, even when I failed in the first floor, it is about telling stories, about the time I activated a trap and set everything on fire, and when I had success and went very deep in the game, it was a sucess story*.
 
-Making a game that lets the user create stories is not an easy task and demands time. Sure, making a "roguelike" is easy, just slap a turn-based combat, a dungeon generation and permadeath and there you go, but making a **roguelike** is hard, because it is a game that players go to create their own stories, to explore an always changing environment.
+Making a game that lets the user create stories is not an easy task and demands time. Sure, making a "roguelike" is easy, just slap a turn-based combat, a dungeon generation and permadeath and there you go, but making a **roguelike** is hard, because it is a game that players go to create their own stories and to explore an always changing environment.
 
 **What went right?**
 
@@ -66,6 +66,6 @@ Me thinking that I could make a real roguelike in 3 months went very wrong. The 
 
 ### What's next?
 
-I honestly don't know what's next, I came up with "Fourth Dimension" more than a year ago with the idea of making simple and fun games, but the truth is that I wanted some kind of safe environment to make and publish experimental games, short games, games with a simple story and things like, the purpose is to try new things and make broaden people's views on what games can do, maybe that's the new goal? For now I have no project in mind, so only time will tell what happens.
+I honestly don't know what's next, I came up with "Fourth Dimension" more than a year ago with the idea of making simple and fun games, but the truth is that I wanted some kind of safe environment to make and publish experimental games, short games, games with a simple story and things like that, the purpose is to try new things and broaden people's views on what games can do, maybe that's the new goal? For now I have no project in mind, so only time will tell what happens.
 
 You can always follow me on [Twitter](https://twitter.com/guilhermepo2) and talk to me there!
