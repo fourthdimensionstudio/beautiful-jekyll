@@ -14,7 +14,7 @@ A traditional roguelike is very tied in with a Turn-Based Combat System, the com
 
 ![Combat System](/devlog/img/aglarond/tbs-diagram.png)
 
-The idea is actually pretty simple, the Turn Based Manager holds a reference to all Actors that are going to take a turn, and every frame the manager queries the actor like: "Hey, did you take a turn yet?" - For that the actor could say yay or nay. For example, enemies always take a turn, but there can be a situation in the future where an enemy thinks too much with its behavior tree and takes more than a frame to take the turn, and the player only returns "yay" when the actual player (you) presses a key to move the character, while that doesn't happen, the hero always say "nay" to the query.
+The idea is actually pretty simple, the Turn-Based Manager holds a reference to all Actors that are going to take a turn, and every frame the manager queries the actor like: "Hey, did you take a turn yet?" - For that the actor could say yay or nay. For example, enemies always take a turn, but there can be a situation in the future where an enemy thinks too much with its behavior tree and takes more than a frame to take the turn, and the player only returns "yay" when the actual player (you) presses a key to move the character, while that doesn't happen, the hero always say "nay" to the query.
 
 ```
 private void ProcessCurrentActorTurn() {
@@ -28,11 +28,11 @@ private void ProcessCurrentActorTurn() {
 
 Here's the simple game loop for the turn based system.
 
-After receiving a "yay" a bunch of processing happens, the actor checks for collisions, for combat and let the manager know about all that, so that it can be handled correctly, after all that, the movement is resolved, resulting into a movement, a combat action or a movement denied.
+After receiving a "yay" a bunch of processing happens, the actor checks for collisions, for combat and let the manager know about all that, so that it can be handled correctly, after all that, the movement is resolved, resulting in a movement, a combat action or a movement denied.
 
 ### Everything is in memory
 
-The turn based manager keeps everything in memory, the game screen is just a representation of everything that is happening, it is kinda like there is parallel game running in the memory. So when checking for collision a combat, the actual scene is not used, here's how it is done:
+The turn based manager keeps everything in memory, the game screen is just a representation of everything that is happening, it is kinda like there is parallel game running in the memory. So when checking for a combat collision, the actual scene is not used, here's how it is done:
 
 ```
 public bool IsThereAnActorAt(Vector2 _positionToCheck) {
@@ -92,3 +92,7 @@ public void Move(Input.EMovementDirection _movementDirection) {
     Move(movementDirection, canMoveOnDirection, willEngageInCombat);
 }
 ```
+
+The Enemy Detection is what handles checking enemies that are in range and either adding or removing them from the turn list that is processed on the turn-based manager. Sounds like a weird trick, but it works.
+
+This is just some very basic and a very high overview of this turn-based system, [the specifics can be seem on the actual repository](https://github.com/fourthdimensionstudio/Aglarond) and you can always ask me something on [Twitter](https://twitter.com/guilhermepo2)!
